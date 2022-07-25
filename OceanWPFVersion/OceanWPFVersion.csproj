@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\background.png" />
+    <None Remove="img\fish.png" />
+    <None Remove="img\oceanweed.png" />
+    <None Remove="img\shark.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OceanLogic\OceanLogic\OceanLogic.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\background.png" />
+    <Resource Include="img\fish.png" />
+    <Resource Include="img\oceanweed.png" />
+    <Resource Include="img\shark.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OceanWPFVersion.App">
+    <Position X="2" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OceanWPFVersion.DrawingImageUploader">
+    <Position X="4.25" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DrawingImageUploader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OceanWPFVersion.MainWindow">
+    <Position X="6.75" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AACgCAAAAACAAEAAAoQgYUQgAEACABCALAAEAEEAkEA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_controller" />
+      <Field Name="_preyImg" />
+      <Field Name="_predatorImg" />
+      <Field Name="_obstacleImg" />
+      <Field Name="_oceanTimer" />
+      <Field Name="mediaPlayer" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OceanWPFVersion.NumericBox">
+    <Position X="2" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAIAAgAAAAAAgAGAAAAE=</HashCode>
+      <FileName>NumericBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OceanWPFVersion.SettingsEditWindow">
+    <Position X="4.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAgAAAAAAAAAAAgAAAAAAAAIAABIAAAAAAAAIAAAA=</HashCode>
+      <FileName>SettingsEditWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_settings" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OceanLogic.DefaultSettings" Collapsed="true">
+    <Position X="4.25" Y="7" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Media.MediaPlayer" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Media.ImageBrush" Collapsed="true">
+    <Position X="10.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Threading.DispatcherTimer" Collapsed="true">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="OceanLogic.Controller" Collapsed="true">
+    <Position X="10.25" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
